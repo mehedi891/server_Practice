@@ -5,7 +5,7 @@ const fileUpload = require('express-fileupload');
 const MongoClient = require('mongodb').MongoClient;
 require('dotenv').config()
 
-const uri = `mongodb+srv://mehedi739:00885698@cluster0.swu9d.mongodb.net/doctorsPortal?retryWrites=true&w=majority`;
+const uri = "mongodb+srv://mehedi739:00885698@cluster0.tvlze.mongodb.net/doctorsPortal?retryWrites=true&w=majority";;
 
 
 const app = express()
@@ -93,6 +93,5 @@ client.connect(err => {
     })
 
 });
-
 
 app.listen(process.env.PORT || port)
